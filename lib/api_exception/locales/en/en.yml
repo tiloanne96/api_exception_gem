@@ -1,0 +1,19 @@
+En:
+  base_exceptions:
+    record_not_found: "Record not found for {{model}}"
+    timeout: "Could not connect to {{provider}}"
+    invalid_user: Invalid user
+    duplicated_emails: Some user emails are duplicated
+    invalid_status_change: "Cannot change status from {{original_status}} to {{new_status}}"
+    unauthorized_user: User is unauthorized to do this action
+    invalid_policy: Invalid policy
+    standard_error: "{{message}}"
+    cannot_update: "Cannot update {{model}} with the requested parameters"
+    not_unique_record: ID should be unique for this datatype
+    action_not_permitted: Action is not permitted
+    invalid_file: One or more of the sent file are invalid or corrupt
+    unsupported_file: The file you are trying to upload is not supported
+    invalid_params: There was a problem in the JSON submitted
+    update_conflict: Update conflict. Please retry.
+    invalid_date_range: Invalid date range
+    authentication_failure: Verify authentication parameters.

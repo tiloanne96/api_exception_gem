@@ -1,0 +1,19 @@
+Es:
+  base_exceptions:
+    record_not_found: "Registro no encontrado para {{model}}"
+    timeout: "No se pudo conectar a {{provider}}"
+    invalid_user: Usuario invalido
+    duplicated_emails: Algunos e-mails están duplicados
+    invalid_status_change: "No se puede cambiar el status de {{original_status}} a {{new_status}}"
+    unauthorized_user: Usuario no autorizado para realizar esta acción
+    invalid_policy: Política inválida
+    standard_error: "{{message}}"
+    cannot_update: "No se puede actualizar {{model}} con los estos parametros"
+    not_unique_record: El identificador debe ser único para este tipo de dato
+    action_not_permitted: La acción no está permitida
+    invalid_file: Uno o más de los archivos que se están enviando son inválidos o están corruptos
+    unsupported_file: El archivo que está intentando cargar no está soportado
+    invalid_params: Hubo un problema con el JSON enviado
+    update_conflict: Conflicto de actualización. Por favor, intenta nuevamente.
+    invalid_date_range: Rango de fechas inválido
+    authentication_failure: Verifique parámetros de autenticación.
